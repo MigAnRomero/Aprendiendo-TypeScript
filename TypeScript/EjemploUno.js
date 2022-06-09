@@ -14,4 +14,7 @@ function multiplicar(x, y) {
     return x * y;
 }
 holaMundo();
-console.log(multiplicar(6, 8));
+console.log(multiplicar(100, 8));
+/* Una forma rápida de hacer la compilación de TS a Js es usando
+la siguiente línea de código: ts-node EjemploUno.ts
+*/ 

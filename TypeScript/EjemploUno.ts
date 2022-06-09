@@ -11,10 +11,14 @@ En la terminal se digita:
 node EjemploUno.js
 --> para ejecutar el mensaje en la consola de holaMUndo()
 */
-function multiplicar(x, y)
+function multiplicar(x: number, y: number)
 {
     return x*y;
 }
 
 holaMundo();
-console.log(multiplicar(6,8));
+console.log(multiplicar(100,8));
+
+/* Una forma rápida de hacer la compilación de TS a Js es usando
+la siguiente línea de código: ts-node EjemploUno.ts
+*/
