@@ -9,9 +9,9 @@ console.log(cadena);
 numero = -8;
 console.log(numero);
 
-function Pruebas(num: number)
+function pruebas(num: number)
 {
     return num + 40;
 }
 
-console.log(Pruebas(numero));
+console.log(pruebas(numero));
