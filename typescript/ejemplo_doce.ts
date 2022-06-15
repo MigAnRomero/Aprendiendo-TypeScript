@@ -7,9 +7,9 @@
 // }
 
 //Bucle Do-While
-let i: number = 5;
+let num_ind: number = 5;
 do
 {
-    console.log("El número es " + i);
+    console.log("El número es " + num_ind);
     i++;
-}while(i < 7)
+}while(num_ind < 7)
