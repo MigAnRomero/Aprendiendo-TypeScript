@@ -32,11 +32,11 @@ class Perro implements animal
 {
     nombre: string;
     edad: number;
-    constructor(nombre: string, edad: number)
-    {
-        this.nombre = nombre;
-        this.edad = edad;
-    }
+    // constructor(nombre: string, edad: number)
+    // {
+    //     this.nombre = nombre;
+    //     this.edad = edad;
+    // }
     datos(): void 
     {
         console.log("Mi perro se llama " + this.nombre +
@@ -47,7 +47,7 @@ class Perro implements animal
 let miGatoDos = new GatoDos("Garfield", 7, especieGato.Persa);
 miGatoDos.datos();
 
-let miPerro = new Perro("Doria", 12);
+let miPerro = new Perro();
 miPerro.edad = 5;
 miPerro.nombre = "Laika";
 miPerro.datos();
